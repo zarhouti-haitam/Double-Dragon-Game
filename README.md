@@ -24,7 +24,13 @@ Then just:
   cd build
   make all (The Makefile Is already All SET UP )
   Enjoy the Game and Bring Back the Childhood Vibes ...
-
+  Ps: Use ZQSD for moovements 
+  P for Punch 
+  K for Kick 
+  T for Twist-Kick
+  M for Jump Kick 
+  U for Upper-Cut 
+  N for Knee-Kick
 
 
 ⚠️ Note
