@@ -10,7 +10,7 @@
 #define PlayerW 70
 
 #define JUMPP 150
-#define SPEEDP 4
+#define SPEEDP 3
 
 #define GROUNDY 620
 #define LIMITYS 630

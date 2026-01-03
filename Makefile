@@ -1,6 +1,6 @@
 
 CC = gcc -g
-CFLAGS = -Wall -Iinclude
+CFLAGS = -Wall -Iinclude -llibs
 LDFLAGS = -lSDL2_image -lSDL2
 OBJ =  enemies.o player.o SDLFcts.o controller.o main.o 
 EXE = execu

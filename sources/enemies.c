@@ -24,7 +24,7 @@ void initenemy(Enemy *enemy  , int x , int y){
 
     enemy->flip  = SDL_FLIP_HORIZONTAL ;
 
-    enemy->speed = SPEEDP - 2.5 ;
+    enemy->speed = SPEEDP - 1.5  ;
 
     enemy->is_moving = 0 ;
 

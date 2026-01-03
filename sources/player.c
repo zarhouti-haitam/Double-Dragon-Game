@@ -72,7 +72,7 @@ void player_jump(Player *player  ){
 
 void update_player_posi( Player *player , const Uint8 *keypressed){
 
-    if(!player->is_alive) return ; 
+    if(!player->is_alive || (player->life <= 0 )) return ; 
    
 	if(!player->is_attacking ){
 	
@@ -266,7 +266,7 @@ void renderplayer_attack(SDL_Renderer *renderer, Player *player,
 void renderplayer_moving(SDL_Renderer *renderer, Player *player, SDL_Texture *moving_texture){
 
  
-     if(!player->is_alive) return ; 
+     if(!player->is_alive || (player->life <= 0 )) return ; 
 
  
  
@@ -276,7 +276,7 @@ void renderplayer_moving(SDL_Renderer *renderer, Player *player, SDL_Texture *mo
 
                     
 
-                    player->frame_switch_speed = 2;
+                    player->frame_switch_speed = 3;
 
                     if (player->is_moving && !player->is_attacking) {
                         
